@@ -92,7 +92,7 @@ body {
 ================================================ */
 #hero {
     height: 100vh;   /* 100% de la hauteur de l'écran */
-    background-image: url('../portfolio/images/work_in_progress.jpg');
+    background-image: url('/images/work_in_progress.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
