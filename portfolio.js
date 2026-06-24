@@ -22,15 +22,10 @@ const tabPanels = document.querySelectorAll(".tab-panel");
 tabBtns.forEach(btn => {
   btn.addEventListener("click", () => {
 
-    // 1. On retire "active" de tous les boutons et panneaux
     tabBtns.forEach(b => b.classList.remove("active"));
     tabPanels.forEach(p => p.classList.remove("active"));
-
-    // 2. On active le bouton cliqué
     btn.classList.add("active");
-
-    // 3. On affiche le panneau qui correspond (via data-target)
-    const cible = btn.dataset.target; // ex: "apropos"
+    const cible = btn.dataset.target; 
     document.getElementById(cible).classList.add("active");
 
   });
