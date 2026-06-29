@@ -215,5 +215,23 @@ body {
   display: inline-block;
   margin-right: 16px;
 }
+
+@media (max-width: 768px) {
+
+    /* Le header prend moins de place sur mobile */
+    #main-header {
+        padding: 16px 20px;  /* au lieu de 24px 40px */
+    }
+
+    /* Le titre du hero est plus petit sur mobile */
+    #hero .hero-content h1 {
+        font-size: 32px;  /* au lieu de 52px */
+    }
+
+    /* La section à propos a moins de padding */
+    #moi {
+        padding: 40px 20px;  /* au lieu de 60px 40px */
+    }
+}
  
 
