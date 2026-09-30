@@ -217,14 +217,44 @@ a:focus-visible, button:focus-visible {
     transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 .project-card:hover { transform: translateY(-4px); box-shadow: 0 8px 24px rgba(0,0,0,0.14); }
-.project-thumb {
+.project-img1 {
     height: 170px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: var(--vert-fonce);
+    background-color: var(--vert-fonce);
+    background-image: url('images/portfolio.png');
+    background-repeat: no-repeat;
     color: rgba(255,255,255,0.7);
     font-size: 15px;
+    background-size: cover;
+    background-position: center;
+}
+.project-img2 {
+    height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--vert-fonce);
+    background-image: var(--vert-fonce);
+    background-repeat: no-repeat;
+    color: rgba(255,255,255,0.7);
+    font-size: 15px;
+    background-size: cover;
+    background-position: center;
+}
+.project-img3 {
+    height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--vert-fonce);
+    background-image: url('images/elden-ring-site.png');
+    background-repeat: no-repeat;
+    color: rgba(255,255,255,0.7);
+    font-size: 15px;
+    background-size: cover;
+    background-position: center;
 }
 .project-body { padding: 20px 24px 24px; }
 .project-body h4 { font-size: 20px; color: var(--vert-fonce); margin-bottom: 8px; }
